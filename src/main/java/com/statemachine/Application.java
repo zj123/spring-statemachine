@@ -8,6 +8,7 @@ import org.springframework.boot.context.web.SpringBootServletInitializer;
 public class Application extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
+        //我叫冯阿姨，又呆又笨~
         SpringApplication.run(Application.class, args);
     }
 }
