@@ -16,6 +16,7 @@ public class StateMechineEndpoint {
 
     @RequestMapping("/state")
     public String feedAndGetState() throws Exception {
+        //冯阿姨
         stateMachine.getExtendedState().getVariables().put("id", 11);
         stateMachine.sendEvent(Events.E1);
         return stateMachine.getState().getId().toString();
